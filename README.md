@@ -1,7 +1,7 @@
 # SQL_with_Spark
 
 ## Databrick
-In this project we use Databrick to write SQL query with Spark. Databrick is a company founded by the creators of Apache Spark [1]. It provides a web platform to run machine learning task at scale using its automated cluster management system. It has a Jupyter notebook like workspace that we can write and run Python, PySpark, SQL, Scala, R codes. We use the community version of Databrick which is free. 
+In this project we use Databrick to write SQL query with Spark. Databrick is a company founded by the creators of Apache Spark [1]. It provides a web platform to run machine learning task at scale using its automated cluster management system. It has a Jupyter notebook like workspace that we can write and run Python, PySpark, SQL, Scala, R codes. We use the community version [2] of Databrick which is free. 
 
 <pre><p align="center">
 <img src="https://user-images.githubusercontent.com/86133411/214099576-8a94568a-b370-420c-856b-f008085aafd4.png"  width="600">
