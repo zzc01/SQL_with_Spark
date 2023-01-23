@@ -3,6 +3,7 @@
 ## Databrick
 In this project we use Databrick to write SQL query with Spark. Databrick is a company founded by the creators of Apache Spark [1]. It provides a web platform to run machine learning task at scale using its automated cluster management system. It has a Jupyter notebook like workspace that we can write and run Python, PySpark, SQL, Scala, R codes. We use the community version [2] of Databrick which is free. 
 
+#### Block diagram of the project on Databrick 
 <pre><p align="center">
 <img src="https://user-images.githubusercontent.com/86133411/214099576-8a94568a-b370-420c-856b-f008085aafd4.png"  width="600">
 </p></pre>
@@ -12,7 +13,7 @@ In this project we create one database with three tables: members, bookings, fac
 The facilities table contains the courts name, facility ID, costs, etc. The bookings table has information of the researvations including the member ID, facility ID, reserved time slots, etc. We use Spark to load dataframe save it as a table and utilize SQL to query the database.  
 <br/>
 
-### Some useful commands
+#### Some useful commands
 * PySpark 
   * bookings_df = (spark.read.format(file_type) 
                     .option("inferSchema", infer_schema) 
